@@ -35,13 +35,12 @@ class SpacyPTNewsLG(BaseGeneralWrapper):
             self.supported_labels = self.model.get_pipe("ner").labels
      
      def extract_entities(self, text, labels):
+        """(text, label, start, end)"""
         for label in labels:
             if label not in self.supported_labels:
                 raise ValueError(f"Label not supported! label:{label}, supported labels for the model {self.model_name}: {self.supported_labels}")
         
         doc = self.model(text)
 
-        return [
-            (ent.text, ent.label_, ent.start_char, ent.end_char) for ent in doc.ents
-        ]
+        return [(ent.text, ent.label_, ent.start_char, ent.end_char) for ent in doc.ents]
 
