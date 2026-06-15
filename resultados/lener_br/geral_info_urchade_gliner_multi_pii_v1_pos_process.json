@@ -1,0 +1,68 @@
+{
+    "per_entity": {
+        "PESSOA": {
+            "tp": 172,
+            "fp": 733,
+            "fn": 61,
+            "precision": 0.1901,
+            "recall": 0.7382,
+            "f1_score": 0.3023
+        },
+        "JURISPRUDENCIA": {
+            "tp": 46,
+            "fp": 833,
+            "fn": 139,
+            "precision": 0.0523,
+            "recall": 0.2486,
+            "f1_score": 0.0865
+        },
+        "TEMPO/DATA": {
+            "tp": 106,
+            "fp": 104,
+            "fn": 86,
+            "precision": 0.5048,
+            "recall": 0.5521,
+            "f1_score": 0.5274
+        },
+        "ORGANIZACAO": {
+            "tp": 306,
+            "fp": 584,
+            "fn": 195,
+            "precision": 0.3438,
+            "recall": 0.6108,
+            "f1_score": 0.44
+        },
+        "LEGISLACAO/FUNDAMENTO": {
+            "tp": 124,
+            "fp": 774,
+            "fn": 254,
+            "precision": 0.1381,
+            "recall": 0.328,
+            "f1_score": 0.1944
+        },
+        "LOCAL": {
+            "tp": 31,
+            "fp": 71,
+            "fn": 16,
+            "precision": 0.3039,
+            "recall": 0.6596,
+            "f1_score": 0.4161
+        }
+    },
+    "global": {
+        "total_tp": 785,
+        "total_fp": 3099,
+        "total_fn": 751,
+        "precision": 0.2021,
+        "recall": 0.5111,
+        "f1_score": 0.2897
+    },
+    "privacy_and_utility": {
+        "sbert_tps_avg": 0.7648,
+        "lexical_divergence_avg": 0.32,
+        "rouge1_overlap_avg": 0.7029,
+        "rougeL_overlap_avg": 0.7029,
+        "Qwen/Qwen2.5-7B-Instruct_reid_success_rate_no_orig": 0.0009,
+        "Qwen/Qwen2.5-7B-Instruct_reid_success_rate_with_orig": 0.2558
+    }
+}

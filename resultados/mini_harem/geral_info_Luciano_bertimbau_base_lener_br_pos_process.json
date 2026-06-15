@@ -1,0 +1,60 @@
+{
+    "per_entity": {
+        "TEMPO/DATA": {
+            "tp": 210,
+            "fp": 159,
+            "fn": 155,
+            "precision": 0.5691,
+            "recall": 0.5753,
+            "f1_score": 0.5722
+        },
+        "PESSOA": {
+            "tp": 309,
+            "fp": 537,
+            "fn": 529,
+            "precision": 0.3652,
+            "recall": 0.3687,
+            "f1_score": 0.367
+        },
+        "ORGANIZACAO": {
+            "tp": 198,
+            "fp": 538,
+            "fn": 408,
+            "precision": 0.269,
+            "recall": 0.3267,
+            "f1_score": 0.2951
+        },
+        "LOCAL": {
+            "tp": 503,
+            "fp": 543,
+            "fn": 380,
+            "precision": 0.4809,
+            "recall": 0.5696,
+            "f1_score": 0.5215
+        },
+        "VALOR": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 326,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1_score": 0.0
+        }
+    },
+    "global": {
+        "total_tp": 1220,
+        "total_fp": 1777,
+        "total_fn": 1798,
+        "precision": 0.4071,
+        "recall": 0.4042,
+        "f1_score": 0.4057
+    },
+    "privacy_and_utility": {
+        "sbert_tps_avg": 0.8365,
+        "lexical_divergence_avg": 0.1572,
+        "rouge1_overlap_avg": 0.9016,
+        "rougeL_overlap_avg": 0.9011,
+        "Qwen/Qwen2.5-7B-Instruct_reid_success_rate_no_orig": 0.0361,
+        "Qwen/Qwen2.5-7B-Instruct_reid_success_rate_with_orig": 0.4899
+    }
+}

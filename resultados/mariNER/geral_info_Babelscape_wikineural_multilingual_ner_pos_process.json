@@ -1,0 +1,52 @@
+{
+    "per_entity": {
+        "PESSOA": {
+            "tp": 145,
+            "fp": 161,
+            "fn": 125,
+            "precision": 0.4739,
+            "recall": 0.537,
+            "f1_score": 0.5035
+        },
+        "LOCAL": {
+            "tp": 717,
+            "fp": 509,
+            "fn": 187,
+            "precision": 0.5848,
+            "recall": 0.7931,
+            "f1_score": 0.6732
+        },
+        "TEMPO/DATA": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 142,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1_score": 0.0
+        },
+        "ORGANIZACAO": {
+            "tp": 7,
+            "fp": 19,
+            "fn": 49,
+            "precision": 0.2692,
+            "recall": 0.125,
+            "f1_score": 0.1707
+        }
+    },
+    "global": {
+        "total_tp": 869,
+        "total_fp": 689,
+        "total_fn": 503,
+        "precision": 0.5578,
+        "recall": 0.6334,
+        "f1_score": 0.5932
+    },
+    "privacy_and_utility": {
+        "sbert_tps_avg": 0.8797,
+        "lexical_divergence_avg": 0.138,
+        "rouge1_overlap_avg": 0.8741,
+        "rougeL_overlap_avg": 0.874,
+        "Qwen/Qwen2.5-7B-Instruct_reid_success_rate_no_orig": 0.0097,
+        "Qwen/Qwen2.5-7B-Instruct_reid_success_rate_with_orig": 0.2842
+    }
+}

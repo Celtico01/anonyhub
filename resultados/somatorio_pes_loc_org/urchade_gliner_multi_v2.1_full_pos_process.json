@@ -1,0 +1,36 @@
+{
+    "per_entity": {
+        "PESSOA": {
+            "tp": 3454,
+            "fp": 3782,
+            "fn": 1887,
+            "precision": 0.4773,
+            "recall": 0.6467,
+            "f1_score": 0.5493
+        },
+        "ORGANIZACAO": {
+            "tp": 2703,
+            "fp": 4631,
+            "fn": 1016,
+            "precision": 0.3686,
+            "recall": 0.7268,
+            "f1_score": 0.4891
+        },
+        "LOCAL": {
+            "tp": 3020,
+            "fp": 2012,
+            "fn": 2092,
+            "precision": 0.6002,
+            "recall": 0.5908,
+            "f1_score": 0.5954
+        }
+    },
+    "global": {
+        "total_tp": 9177,
+        "total_fp": 10425,
+        "total_fn": 4995,
+        "precision": 0.4682,
+        "recall": 0.6475,
+        "f1_score": 0.5434
+    }
+}
