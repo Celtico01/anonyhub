@@ -2,7 +2,7 @@
 
 Este repositório contém os conjuntos de dados, modelos e resultados e códigos do Trabalho de Conclusão de Curso (TCC).
 
-🔗 [Acesse o TCC](https://github.com/seu-usuario/seu-repositorio)
+🔗 [Acesse o TCC](https://github.com/seu-usuario/seu-repositorio) (Não Publicado Ainda)
 
 ---
 
