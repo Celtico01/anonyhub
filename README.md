@@ -26,4 +26,4 @@ Os dados gerados pelas avaliações do TCC estão localizados na pasta [`/result
 
 Se tiver qualquer dúvida ou precisar de mais informações sobre os experimentos, sinta-se à vontade para entrar em contato:
 
-📩 [seu-email@instituicao.edu.br](mailto:seu-email@instituicao.edu.br)
+📩 [alan.mesquita08@aluno.ifce.edu.br](mailto:alan.mesquita08@aluno.ifce.edu.br)
